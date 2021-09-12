@@ -62,6 +62,7 @@ class MyStoryAddandUserStories extends StatelessWidget {
                             )),
                       ],
                     ),
+                    //
                     SizedBox(
                       height: size.height * 0.015,
                     ),
@@ -82,14 +83,6 @@ class MyStoryAddandUserStories extends StatelessWidget {
                                 size: size, userStory: userdetails[index]))
                       ],
                     ))
-
-                // ListView.builder(
-                //       scrollDirection: Axis.horizontal,
-                //       itemCount: userdetails.length,
-                //       itemBuilder: (BuildContext context, int index) {
-                //         return UserStories(
-                //             size: size, userStory: userdetails[index]);
-                //       }),
               ],
             ),
           ),
